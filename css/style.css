@@ -9,7 +9,7 @@ body{
 }
 .header img{
 	
-	max-width:100%;
+	width:100%;
 }
 .header ul{
 	list-style: none;
@@ -33,14 +33,12 @@ body{
 }
 .btn-registro{
 	color:white;
-	text-align: center;
 	background-color: #0b6686;
-	padding:10px 80px;
-	
 	text-decoration: none;
 	position:absolute;
 	top:50%;
 	left:50%;
+	padding: 5px;
 	border-radius: 25%;
 	font-size: 30px;
 }
@@ -138,26 +136,22 @@ body{
 	padding-bottom: 5px;
 	font-size: 20px;
 }
+/* seccion de abajo*/
+.columna{
 
-.pro-section{
 	background-image: linear-gradient(#19396C, #67E8CF);
-  	height: 400px;
-  	margin:; 0 auto;
-}
-
-.columna ul li{
-	list-style: none;
+	text-align: left;
+	padding:100px 35%;
+  	margin: 0 auto;
 	font-size: 40px;
 	color: white;
-	padding-left: 350px;
-	padding-top: 40px;
-
-
-}
-.columna ul{
-	padding-top: 40px;
 	margin-top: 5%;
+}
 
+
+.columna-formato{
+
+	width: 100%;
 }
 
 footer{
