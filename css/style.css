@@ -93,22 +93,23 @@ body{
 	width: 100%;
 	margin:0 auto;
 	text-align: center;
-
 }
+
 .card {
 	width: 330px;
 	height: 260px;
+
 	border: 1px solid  #d6d2d2;
 	margin-right: 60px;
 	margin-left: 70px;
 	overflow: hidden;
 	background-color:  #0C6798;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	display: inline-flex;
 	text-align: center;
-	 background-color: #013A6B;
- 	 background-image: -webkit-linear-gradient(85deg, white 50%, #0C6798 50%);
+	background-color: #013A6B;
+ 	background-image: -webkit-linear-gradient(85deg, white 50%, #0C6798 50%);
   
 }
 .card-body{
@@ -179,7 +180,8 @@ padding-bottom: 15px;
 
 }
 .columna{
-
+	padding-bottom: 30px;
+	padding-top: 30px;
 	width:100%;
 	background-image: linear-gradient(#19396C, #67E8CF);
 	list-style: none;
@@ -287,7 +289,62 @@ margin-top: 50px;
 	font-size: 10px;
 }
 
+@media screen and (max-width: 575px){
+	.columna{
+		font-size: 25px;
+
+	}
+	.container{
+	width: 100%;
+
+}
+.card{
+	width: 70%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+	}
+@media screen and (max-width: 525px){
+	.columna{
+		font-size: 20px;
+}
+.canciones{
+	font-size: 25px;
+	top:60%;
+}
+.btn-registro{
+	top:40%;
+	left:45%;
+}
+.logo{
+	left:15%;
+}
+.header{
+	text-align: center;
+}
+
+.header ul{
+	list-style: none;
 	
+	position: relative;
+}
+
+.header ul li{
+	display:inline-block;
+	margin: 5px 10px;
+	
+
+}
+
+.header ul li a{
+	font-weight: 700;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #1e3b71;
+	padding-bottom: 5px;
+	transition: all 0.2s ease-in;
+}
 @media screen and (max-width: 400px){
 	.registro{
 		margin-left: 3%;
@@ -299,3 +356,4 @@ margin-top: 50px;
 		font-size:11px;
 	}
 }
+
