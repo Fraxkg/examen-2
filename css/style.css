@@ -1,8 +1,9 @@
 body{
 	 font-family: Roboto;    
-	 margin: 0 auto;
+	 margin: 0;
 
 }
+/*Header*/
 .header{
 	position: relative;
 	margin:0 auto;
@@ -71,7 +72,7 @@ body{
 	top:5%;
 	left:15%;	
 }
-/*Header*/
+
 
 /*Planes*/
 
@@ -79,6 +80,7 @@ body{
 	width: 100%;
 	margin:0 auto;
 	text-align: center;
+
 }
 .card {
 	width: 330px;
@@ -93,7 +95,7 @@ body{
 	display: inline-flex;
 	text-align: center;
 	 background-color: #013A6B;
- 	 background-image: -webkit-linear-gradient(80deg, white 50%, #0C6798 50%);
+ 	 background-image: -webkit-linear-gradient(85deg, white 50%, #0C6798 50%);
   
 }
 .card-body{
@@ -122,7 +124,6 @@ body{
 }
 
 
-
 .card-list {
 	list-style: none;
 	padding-left: 0;
@@ -135,24 +136,40 @@ body{
 .card-list li{
 	padding-bottom: 5px;
 	font-size: 20px;
+	font-weight: 800;
+
 }
+
+
 /* seccion de abajo*/
+.iconos{
+	margin-left:  auto;
+}
+.texto{
+	text-align: left;
+	margin-right:  auto;
+}
+.texto ul{
+list-style: none;
+}
+.iconos ul {
+list-style: none;
+}
 .columna{
 
+	width:100%;
 	background-image: linear-gradient(#19396C, #67E8CF);
-	text-align: left;
-	padding:100px 35%;
+	list-style: none;
   	margin: 0 auto;
 	font-size: 40px;
 	color: white;
 	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
 }
 
 
-.columna-formato{
 
-	width: 100%;
-}
 
 footer{
 	margin-top: 40px;
@@ -163,14 +180,18 @@ footer{
 	text-align: center;
 }
 
-/*Pagina de registro*/
+/*registro*/
 
 
 .main-header-register{
-	background-color: #0C6798;
+
+	background-color: #0c6798;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 .registro{
+	max-width:1920px;
 	margin:0 auto;
 	max-width: 400px;
 	text-align: center;
@@ -187,7 +208,7 @@ footer{
 .container-register h2{
 margin-top: 50px;
 	color:white;
-	background-color: #0C6798;
+	background-color: #3b5998;
 	border-radius: 30px;
 	font-size: 20px;
 	padding: 25px ;
@@ -232,52 +253,26 @@ margin-top: 50px;
 	margin:0 auto;
 	margin-top: 50px;
 	color:white;
-	background-color: #0C6798;
+	background-color: #2468b9;
 	border-radius: 30px;
-	font-size: 10px;
+	font-size: 12px;
 	padding: 2px 5px ;
 	
 }
 .iniciar-sesion {
 	width:100%;
-	font-size: 8px;
+	font-size: 10px;
 }
 
 	
-/*PRODUCTOS*/
-
-/*PRODUCTOS*/
-/*
-@media screen and (max-width: 480px){
-	body{
-		
-		
+@media screen and (max-width: 400px){
+	.registro{
+		margin-left: 3%;
+		margin-right:3%;
 	}
-	.main-header{
-		margin: 0;
-	}
-	.logo .main-menu{
-		text-align: center;
-		padding-right: 100px;
-		padding-top: 50px;
-	}
-
-	.logo img{
-		margin-left: 120px;
-	}
-	
-	.title-contact{
-		margin-left: 0;
-	}
-	.card {
-		width: 100%
-	}
-	.buscador input {
-	
-		margin-left: 171px;
-
-	}
-
 }
-
-*/
+@media screen and (max-width: 354px){
+	.linea{
+		font-size:11px;
+	}
+}
