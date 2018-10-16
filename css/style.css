@@ -364,10 +364,13 @@ margin-top: 50px;
 @media screen and (max-width: 507px){
 	.header ul li{
 		margin: 2px 5px;
+		padding-right: 0px;
+
 	}
 	.header ul{
 			display: flex;
 			flex-direction: column;
+
 		}
 	.canciones{
 		top:50%;
