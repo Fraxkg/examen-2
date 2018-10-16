@@ -375,6 +375,12 @@ margin-top: 50px;
 	.canciones{
 		top:50%;
 	}
+	.texto ul{
+		padding-left: 10px;
+	}
+	.iconos ul{
+		padding-left: 10px;
+	}
 	}
 
 @media screen and (max-width: 400px){
